@@ -302,7 +302,28 @@ h3 {
   font-weight: 800;
   text-underline-offset: 0.25em;
 }
+.hero-visual {
+  display: grid;
+  gap: 1.25rem;
+  align-self: center;
+}
 
+.hero-photo-frame {
+  padding: 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 253, 249, 0.86);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.hero-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: calc(var(--radius-lg) - 8px);
+  object-fit: contain;
+}
 .hero-card,
 .experience-card,
 .skill-card,
@@ -516,6 +537,10 @@ h3 {
 }
 
 @media (max-width: 900px) {
+  .hero-visual {
+    width: min(100%, 460px);
+    margin-inline: auto;
+  }  
   .nav-toggle {
     display: block;
   }
