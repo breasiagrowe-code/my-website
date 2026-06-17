@@ -14,7 +14,11 @@ navToggle.addEventListener('click', () => {
 });
 
 navLinks.forEach((link) => {
-  link.addEventListener('click', () => setMenuOpen(false));
+  link.addEventListener('click', () => {
+    if (window.innerWidth <= 900) {
+      setMenuOpen(false);
+    }
+  });
 });
 
 window.addEventListener('keydown', (event) => {

@@ -1,16 +1,17 @@
 # Breasia Growe Portfolio
 
-A polished, mobile-responsive static portfolio website for Breasia Growe, a Tulane University Communications major and English minor interested in grant writing, persuasive communication, research, editing, nonprofit communication, and speechwriting.
+A polished, mobile-responsive static portfolio website with a custom BG favicon for Breasia Growe, a Tulane University Communications major and English minor interested in grant writing, persuasive communication, research, editing, nonprofit communication, and speechwriting.
 
 ## Site Sections
 
 - **Home**: Professional headline, brief introduction, and calls to action.
 - **About Me**: Communications and writing interests with an audience-focused professional summary.
 - **Experience**: Grant writing internship, administrative support experience, and customer service experience from the provided resume text.
+- **Grant Writing Sample**: Public-safe Victory Over Vision sample language that summarizes grant-writing approach without linking confidential proposal documents.
 - **Skills**: Writing and research, digital tools, and professional strengths.
 - **Education**: Tulane University School of Liberal Arts degree details, GPA, honors, and relevant coursework.
 - **Resume**: Prominent links to view or download the PDF resume.
-- **Contact**: Functional email and LinkedIn links.
+- **Contact**: Functional email, LinkedIn, and GitHub profile links.
 
 ## Files
 
@@ -19,6 +20,7 @@ index.html
 styles.css
 script.js
 assets/Breasia_Growe_Resume.pdf
+assets/favicon.svg
 README.md
 ```
 
