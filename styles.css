@@ -326,6 +326,7 @@ h3 {
 }
 .hero-card,
 .experience-card,
+.writing-sample-card,
 .skill-card,
 .education-card,
 .resume-panel {
@@ -435,6 +436,23 @@ h3 {
   margin-top: 0;
   color: var(--soft-ink);
   font-weight: 600;
+}
+
+.writing-sample-card {
+  display: grid;
+  gap: 1.4rem;
+  margin-top: 2rem;
+  padding: clamp(1.5rem, 4vw, 2.4rem);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, rgba(255, 253, 249, 0.96), rgba(245, 239, 231, 0.92));
+}
+
+.writing-sample-card h2 {
+  color: var(--ink);
+}
+
+.writing-sample-card .section-copy {
+  max-width: 860px;
 }
 
 .skills-grid {
@@ -616,6 +634,7 @@ h3 {
 
   .hero-card,
   .experience-card,
+  .writing-sample-card,
   .skill-card,
   .education-card,
   .resume-panel {
@@ -632,4 +651,10 @@ h3 {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
   }
+}
+
+.site-footer a {
+  color: var(--sage-dark);
+  font-weight: 800;
+  text-underline-offset: 0.25em;
 }
